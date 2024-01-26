@@ -1,0 +1,130 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: #cc9b9b; */
+}
+
+header {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  width: 200px;
+  text-align: center;
+  /* border: #333 solid; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.like-btn {
+  color: #ccc;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+/* Is active à gérer avec JavaScript */
+
+.like-btn.active {
+  color: red;
+}
+
+.remove-btn {
+  color: red;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.quantity-value {
+  margin: 0 10px;
+}
+
+.total {
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.total p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.totalamount {
+  color: #333;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.orderbutton {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.orderbutton span {
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
